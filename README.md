@@ -39,64 +39,58 @@ It’s a simple yet educational tool that demonstrates how modern password evalu
    git clone https://github.com/sakshamXnp/password-strength-checker.git
    cd password-strength-checker
 
-2. Run the script:
+2. **Run the script:**
      ```bash
  python password_checker.py
 
 
-3. Enter a password when prompted and review:
+3. **Enter a password when prompted and review:**
 
-Strength rating
+**Strength rating**
 
-Entropy score (in bits)
+**Entropy score (in bits)**
 
-Estimated time to crack
+**Estimated time to crack**
 
-Security improvement suggestions
+**Security improvement suggestions**
 
-4. 🧮 Example Output
+4. **🧮 Example Output**
 Enter a password to check: MyP@ssw0rd123!
 
-Password Strength: 💪 Strong
+**Password Strength: 💪 Strong**
 🔑 Entropy: 78.95 bits
 ⏱️ Estimated crack time: 142.52 years
 
-Suggestions:
+**Suggestions:**
  - Avoid repeated characters (e.g., aaa, 111).
 
-🧮 Example Output
-Enter a password to check: MyP@ssw0rd123!
 
-Password Strength: 💪 Strong
-🔑 Entropy: 78.95 bits
-⏱️ Estimated crack time: 142.52 years
+## 📊 How It Works
 
-📊 How It Works
+**The script evaluates:**
 
-The script evaluates:
+-Character set variety (lowercase, uppercase, digits, symbols)
 
-Character set variety (lowercase, uppercase, digits, symbols)
+-Password length
 
-Password length
+-Common or predictable patterns
 
-Common or predictable patterns
-
-Entropy formula:
+**Entropy formula:**
 
 H = log2(pool_size ** password_length)
 
 
-Crack time:
+**Crack time:**
 Based on 1 billion guesses per second (1e9).
 
-🧩 Folder Structure
-password-strength-checker/
+## 🧩 Folder Structure
+**password-strength-checker/**
 │
 ├── password_checker.py
 ├── README.md               
 └── LICENSE                 
 
-📚 Future Improvements
+## 📚 Future Improvements
 
 -Add GUI interface using Tkinter or Streamlit
 
@@ -106,7 +100,7 @@ password-strength-checker/
 
 -Add unit tests for validation
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Saksham Niraula
 Computer Science Student @ University of Wisconsin–Green Bay
