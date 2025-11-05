@@ -55,6 +55,7 @@ It’s a simple yet educational tool that demonstrates how modern password evalu
 -Security improvement suggestions
 
 4. **🧮 Example Output**
+
 Enter a password to check: MyP@ssw0rd123!
 
 **Password Strength:**
