@@ -103,7 +103,7 @@ Based on 1 billion guesses per second (1e9).
 
 ## 👨‍💻 Author
 
-**Saksham Niraula
-Computer Science Student @ University of Wisconsin–Green Bay
-Specializing in Cybersecurity 🔐
+**Saksham Niraula|
+Computer Science Student @ University of Wisconsin–Green Bay|
+Specializing in Cybersecurity 🔐|
 🌍 https://github.com/sakshamXnp**
