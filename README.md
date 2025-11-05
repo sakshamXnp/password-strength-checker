@@ -40,8 +40,8 @@ It’s a simple yet educational tool that demonstrates how modern password evalu
    cd password-strength-checker
 
 2. Run the script:
-
-python password_checker.py
+     ```bash
+ python password_checker.py
 
 
 3. Enter a password when prompted and review:
@@ -64,6 +64,13 @@ Password Strength: 💪 Strong
 Suggestions:
  - Avoid repeated characters (e.g., aaa, 111).
 
+🧮 Example Output
+Enter a password to check: MyP@ssw0rd123!
+
+Password Strength: 💪 Strong
+🔑 Entropy: 78.95 bits
+⏱️ Estimated crack time: 142.52 years
+
 📊 How It Works
 
 The script evaluates:
@@ -85,19 +92,19 @@ Based on 1 billion guesses per second (1e9).
 🧩 Folder Structure
 password-strength-checker/
 │
-├── password_checker.py     # Main script
-├── README.md               # Project documentation
-└── LICENSE                 # License file (MIT)
+├── password_checker.py
+├── README.md               
+└── LICENSE                 
 
 📚 Future Improvements
 
-Add GUI interface using Tkinter or Streamlit
+-Add GUI interface using Tkinter or Streamlit
 
-Integrate with password breach API (like HaveIBeenPwned)
+-Integrate with password breach API (like HaveIBeenPwned)
 
-Create a web-based version using Flask or Django
+-Create a web-based version using Flask or Django
 
-Add unit tests for validation
+-Add unit tests for validation
 
 👨‍💻 Author
 
