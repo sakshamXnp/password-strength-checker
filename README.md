@@ -40,24 +40,25 @@ It’s a simple yet educational tool that demonstrates how modern password evalu
    cd password-strength-checker
 
 2. **Run the script:**
-     ```bash
- python password_checker.py
+   ```bash
+   python password_checker.py
 
 
 3. **Enter a password when prompted and review:**
 
-**Strength rating**
+-Strength rating
 
-**Entropy score (in bits)**
+-Entropy score (in bits)
 
-**Estimated time to crack**
+-Estimated time to crack
 
-**Security improvement suggestions**
+-Security improvement suggestions
 
 4. **🧮 Example Output**
 Enter a password to check: MyP@ssw0rd123!
 
-**Password Strength: 💪 Strong**
+**Password Strength:**
+💪 Strong
 🔑 Entropy: 78.95 bits
 ⏱️ Estimated crack time: 142.52 years
 
@@ -85,10 +86,10 @@ Based on 1 billion guesses per second (1e9).
 
 ## 🧩 Folder Structure
 **password-strength-checker/**
-│
-├── password_checker.py
-├── README.md               
-└── LICENSE                 
+
+**├── password_checker.py**
+**├── README.md**              
+**└── LICENSE**                
 
 ## 📚 Future Improvements
 
